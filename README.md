@@ -1,2 +1,2 @@
 # cryptography
-A collection solvers for a couple of basic ciphers
+A collection of encryption/decryption tools

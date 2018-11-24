@@ -219,7 +219,6 @@ int main(int argc, const char *argv[]) {
     }
     
     vector<string> message = (encryption_option) ? encrypt(version, text) : decrypt(invert, version, text);
-
     
     for(vector<string>::iterator it = message.begin(); it != message.end(); it++) {
         cout << *it << " ";
